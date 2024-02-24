@@ -38,7 +38,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.geometry("800x500")
     root.title("my app")
-    root.iconbitmap('C:\\Users\\Joita\\Desktop\\it_school\\project\\bot_project\\images\\logo.ico')
+    root.iconbitmap('logo.ico')
     root.configure(bg='#0F5B92')
 
     my_image = ImageTk.PhotoImage(

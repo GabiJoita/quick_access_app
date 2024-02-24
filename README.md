@@ -18,4 +18,4 @@ And don't forget to add a path on the function a created to open the folder loca
 ```
 
 Code preview:
-![text if image cannot be loaded](C:\Users\Joita\Desktop\it_school\project\bot_project\images\image.png)
+![text if image cannot be loaded](image.png)
