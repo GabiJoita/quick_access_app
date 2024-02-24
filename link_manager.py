@@ -71,6 +71,6 @@ if __name__ == "__main__":
                                   font=('Arial Bolt', 16), bg='#0F5B92')
     presentation_label.grid(row=10, column=1, padx=10, pady=10)
 
-    image_label.grid_propagate(False)
+
 
     root.mainloop()
