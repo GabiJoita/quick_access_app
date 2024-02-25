@@ -1,9 +1,9 @@
 """create an app that helps you access your sites, or folders faster """
 import tkinter as tk
 import webbrowser
-from PIL import ImageTk
 import os
 from pathlib import Path
+from PIL import ImageTk
 
 
 def open_you_tube():
@@ -47,30 +47,31 @@ if __name__ == "__main__":
     image_label.image = my_image
     image_label.grid(row=4, column=5, padx=200, pady=20)
 
-    button = tk.Button(root, text='YouTube', font=('Arial Bolt', 10),
-                       width=30, command=open_you_tube)
+    button = tk.Button(root, text='YouTube', font=('Arial Bold', 10),
+                       width=30, activebackground='red', activeforeground='white',
+                       command=open_you_tube)
     button.grid(row=0, column=1, padx=10, pady=10)
 
-    button_2 = tk.Button(root, text='Folders', font=('Arial Bolt', 10),
-                         width=30, command=open_folder)
+    button_2 = tk.Button(root, text='Folders', font=('Arial Bold', 10),
+                         width=30, activebackground='orange', command=open_folder)
     button_2.grid(row=2, column=1, padx=10, pady=10)
 
-    button_3 = tk.Button(root, text='Google', font=('Arial Bolt', 10),
-                         width=30, command=open_google)
+    button_3 = tk.Button(root, text='Google', font=('Arial Bold', 10),
+                         width=30, activebackground= 'blue', activeforeground='yellow',
+                         command=open_google)
     button_3.grid(row=4, column=1, padx=10, pady=10)
 
-    button_4 = tk.Button(root, text='Netflix', font=('Arial Bolt', 10),
-                         width=30, command=open_netflix)
+    button_4 = tk.Button(root, text='Netflix', font=('Arial Bold', 10),
+                         width=30, activebackground='black', activeforeground='red',
+                         command=open_netflix)
     button_4.grid(row=6, column=1, padx=10, pady=10)
 
-    button_5 = tk.Button(root, text='Instagram', font=('Arial Bolt', 10),
-                         width=30, command=open_instagram)
+    button_5 = tk.Button(root, text='Instagram', font=('Arial Bold', 10),
+                         width=30, activebackground='purple', command=open_instagram)
     button_5.grid(row=8, column=1, padx=10, pady=10)
 
     presentation_label = tk.Label(root, text='choose your link',
-                                  font=('Arial Bolt', 16), bg='#0F5B92')
+                                  font=('Arial Bold', 16), bg='#0F5B92')
     presentation_label.grid(row=10, column=1, padx=10, pady=10)
-
-
 
     root.mainloop()
