@@ -53,7 +53,8 @@ if __name__ == "__main__":
     button.grid(row=0, column=1, padx=10, pady=10)
 
     button_2 = tk.Button(root, text='Folders', font=('Arial Bold', 10),
-                         width=30, activebackground='orange', command=open_folder)
+                         width=30, activebackground='orange', activeforeground='white', 
+                         command=open_folder)
     button_2.grid(row=2, column=1, padx=10, pady=10)
 
     button_3 = tk.Button(root, text='Google', font=('Arial Bold', 10),
@@ -67,7 +68,8 @@ if __name__ == "__main__":
     button_4.grid(row=6, column=1, padx=10, pady=10)
 
     button_5 = tk.Button(root, text='Instagram', font=('Arial Bold', 10),
-                         width=30, activebackground='purple', command=open_instagram)
+                         width=30, activebackground='purple', activeforeground='white', 
+                         command=open_instagram)
     button_5.grid(row=8, column=1, padx=10, pady=10)
 
     presentation_label = tk.Label(root, text='choose your link',
